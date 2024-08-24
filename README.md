@@ -50,3 +50,10 @@ List of Experiments
 |  20  |  0.0004  | 0.0005  |  0.994 |    0.996    | 0.995 |    OpenAss+frzemb    | HFT  |         1024      |      512      |  0.927  |
 |  21  |  0.0004  | 0.0005  |  0.994 |    0.996    | 0.995 |    Deepset+frzemb      | HFT  |         1024      |      512      |  0.924  |
 |  22  | 0.926 debbase submission with stride updation in the predicted tokens.   |         1024      |     1024     |  0.955  |
+
+1. spaCy with en_core_web_sm model for 3 iterations and 2 external datasets.
+2. spaCy with en_core_web_sm model for 20 iterations and 2 external datasets.
+
+|   Exp  |      Train      |         Model          | Trainer | Public |
+|    1     |  51483.809 | en_core_web_sm |  spaCy |  0.809  |
+|    2     | 1,50628.21 | en_core_web_sm |  spaCy |  0.796  |
