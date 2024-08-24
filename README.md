@@ -25,8 +25,9 @@ List of Experiments
 20. 'OpenAssistant/reward-model-deberta-v3-large-v2' with 2 datasets and do-0.2
 21. 'deepset/deberta-v3-large-squad2' with 2 datasets and do-0.2
 22. Strided submissions with deberta base and openassistant reward model.
-Scores
+
 | Exp |    Train   |   Valid   | Recall | Precision |     F1   |         Model          | Trainer | Train_Seq_len | Inf_seq_len | Public |
+| --- |    ---   |   ---   | --- | --- |     ---   |         ---          | --- | --- | --- | --- |
 |   1   |  0.0132  | 0.0012  |     -     |        -       |     -     |  Deberta_base_v3 |   HFT   |        1024        |     1024      |  0.794 |
 |   2   |  0.0132  | 0.0012  |     -     |        -       |     -     |  Deberta_base_v3 |   HFT   |        2048        |     2048      |  0.828 |
 |   3   |  0.0006  | 0.0011  |  0.891 |    0.696    | 0.882 |  Deberta_base_v3 |    HFT   |        1024       |     2048      |  0.870  |
